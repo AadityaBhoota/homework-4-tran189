@@ -7,4 +7,4 @@ The "git status" command basically tells you the status of your local repository
 
 Task 2:
 // Under this line, describe the difference between Git and GitHub
-
+While there are many other nuances, the fundamental difference between Git and GitHub can be described as so: Git is a version control system, and GitHub is a cloud service that allows you to use Git and manage your Git repositories. Consquently, this also means that GitHub is not your only choice when it comes to using Git as a version control system. If Git was a car engine then GitHub would be the car itself, allowing you to use the engine for your transportation needs.
