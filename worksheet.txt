@@ -1,20 +1,30 @@
 Q:What are the 3 commands to transfer something from your local codebase to github
+git add .
+git commit -m "insert message here"
+git push
 
 
 Q: What does git clone do? 
+"git clone" clones the files from a central repository on GitHub onto a newly-created local repository.
+In other words it's the git terminal equivalent of a download button.
 
 
 Q: Git status?
+The "git status" command basically tells you the status of your local repository (as compared to the central repo), particularly whether you are up to date with the central repo or not, how many commits you are behind/ahead, what files are tracked, what are untracked, what have been modified, what changes have been staged and what haven't, etc.
 
 
 Q: What does Your branch is up to date with 'origin/master' tell you?
+The message means that your local repository is on the same commit as the the central repository.
+You don't have any commits that haven't been pushed and you haven't missed any new commits that others working on the project might have pushed.
 
 
 Q: You’ve made a change to a file in GitHub, the one on the browser, and now you run git status on the terminal. It still says up to date despite the change. What command do you need to enter first?
+git fetch
 
 
 Q: You’ve just ran the rm command and deleted an important file and all your code is deleted not including the local repository. You’ve only ran git add and git commit before the rogue command. Is your code saved?
+Your local git repository only saves the the changes (additions, deletions, etc) to your code, not your code itself. However, you can still go online to your central git repository, download the code, and apply the changes that are still present in your local repository in order to recover your code.
 
 
-Q: You’re computer crashes and all your code is deleted, including the local repository. You’ve only ran git add and git commit. Is your code saved?
-
+Q: Your computer crashes and all your code is deleted, including the local repository. You’ve only ran git add and git commit. Is your code saved?
+Your code is not saved, all if it is now gone. You can only recover the work that you have done until your latest push to the central repository. Any work done after that point is lost.
