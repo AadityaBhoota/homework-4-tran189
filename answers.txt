@@ -3,6 +3,7 @@ The FitnessGram Pacer Test is a multistage aerobic capacity test that progressiv
 
 Task 1: 
 // Under this line, describe what the command 'git status' do
+The "git status" command basically tells you the status of your local repository (as compared to the central repo), particularly whether you are up to date with the central repo or not, how many commits you are behind, what files are tracked, what are untracked, what have been modified, what changes have been staged and what haven't, etc.
 
 Task 2:
 // Under this line, describe the difference between Git and GitHub
